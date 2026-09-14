@@ -1,1 +1,1 @@
-# Submit
+# A SQL injection vulnerability was found in the "/admin/login1.php" file of the "Online Admission System Project In PHP". The reason for this issue is that attackers can inject malicious code from the parameter 'user' after logging in with valid credentials. The application fails to properly sanitize or validate this input before using it in SQL queries. This allows attackers to manipulate SQL queries and perform unauthorized operations.
